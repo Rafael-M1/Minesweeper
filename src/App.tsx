@@ -24,7 +24,7 @@ function App() {
     clickType: string
   ): void => {
     event.preventDefault();
-    if (!gameOver) {
+    if (!gameOver && !gameWin) {
       const newClickedTileMatrix = [...clickedTileMatrix.map(row => [...row])];
       if (clickType == "leftClick") {
         newClickedTileMatrix[i][j] = 1;
