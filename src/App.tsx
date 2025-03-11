@@ -126,7 +126,7 @@ function App() {
           })
         }
       </div>
-      Developed por Rafael
+      Developed by Rafael
     </>
   );
 }
